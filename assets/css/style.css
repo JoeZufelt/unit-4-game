@@ -31,11 +31,13 @@ body {
 #scoreText {
     background: #1fa395;
     color: #ffffff;
+    margin: 5px;
 }
 
 #score {
     background: #1fa395;
     color: #ffffff;
+    margin: 5px;
 }
 
 #rupees {
@@ -44,6 +46,8 @@ body {
 
 .number {
     font-size: 40px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .rupees {
