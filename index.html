@@ -9,7 +9,39 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+    <div class="container">
+    <h1 class="col-md-6" id="title">Rupee Collector</h1>
 
+    <div class="col-md-6" id="instructions"><!--Begin Instructions -->
+        <p>You will be given a random number to start the game.</p>
+        <p>There are four Rupees below. By clicking on a Rupee, you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+        <p>The value of each Rupee is hidden until you click on it.</p>
+        <p>Be careful! The value of each Rupee will change at the start of each new game.</p>
+    </div><!--End Instructions -->
+    <div class="col-md-6 row"><!--Random Number and Score Board-->
+        <div class="col-md-8" id="randNum">
+            <p class="number"></p>
+        </div>
+        <div class="col-md-3" id="scoreBoard">
+            <p class="wins">Wins: 0</p>
+            <p class="losses">Losses: 0</p>
+        </div>
+
+    </div><!--End Random Number and Score Board-->
+    <div class="col-md-6 row" id="rupees"><!--Rupees-->
+        <img class="col-md-3 rupees" src="assets/images/Rupee_Green.jpeg">
+        <img class="col-md-3 rupees" src="assets/images/Rupee_Blue.jpeg">
+        <img class="col-md-3 rupees" src="assets/images/Rupee_Red.jpeg">
+        <img class="col-md-3 rupees" src="assets/images/Rupee_Purple.jpeg">
+    </div><!--End Rupees-->
+    <div class="col-md-6" id="scoreText"><!--Total Score Text-->
+        <p>Your total score is:</p>
+    </div><!--End Total Score Text-->
+    <div class="col-md-6" id="score"><!--Total Score Number-->
+        <p class="number">0</p>
+    </div><!--End Total Score Number-->
+</div><!--End Container-->
 
 <!-- This is the Bootstrap/my JS     -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
