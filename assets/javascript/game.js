@@ -39,6 +39,9 @@ $("#rupeePurple").on("click", function(){
     $("#score").html(rupeePurple);
 });
 
+// Add up your score
+
+
 // if/else for wins/losses
 if (yourScore === compNumber) {
     $("#wins").html(wins++);
