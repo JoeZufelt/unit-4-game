@@ -35,12 +35,6 @@ $(document).ready(function () {
         yourScore = 0;
         $("#randNum").text(compNumber);
         $("#score").text(yourScore);
-        // $("#rupeeGreen").attr(rupeeGreen);
-        // $("#rupeeBlue").attr(rupeeBlue);
-        // $("#rupeeRed").attr(rupeeRed);
-        // $("#rupeePurple").attr(rupeePurple);
-        // $("wins").text(wins);
-        // $("#losses").text(losses);
     }
 
     // Put compNum into HTML
@@ -107,19 +101,5 @@ $(document).ready(function () {
 
         };
     });
-
-
-    // // if/else for wins/losses
-    // function endGame() {
-    // if (yourScore === compNumber) {
-    //     $("#wins").html("Wins: " + wins++);
-    //     newGame();
-    // } else if (yourScore > compNumber) {
-    //     $("#losses").html("Losses: " + losses++);
-    //     newGame();
-    // } else {
-
-    // };
-    // };
 
 }); // End of JQuery
